@@ -1,0 +1,113 @@
+/**  ====== DEFAULT CSS ======**/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/**  ====== DEFAULT CSS ======**/
+
+section.videoplay-sec-bg{
+	width: 100%;
+	padding: 100px 0px;
+}
+.section-pre-title h3 {
+    color: #009dea;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    padding-left: 80px;
+}
+.section-pre-title h3::before {
+	content: "";
+	position: absolute;
+	width: 70px;
+	border-top: 2px solid #009dea;
+	left: 0;
+	top: 4px;
+}
+
+.section-title {
+    padding: 0px 0px 20px 0px;
+}
+
+.section-title h1 {
+    line-height: 44px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.section-content {
+    padding: 0px 0px 0px 0px;
+}
+
+.section-content p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 27px;
+    padding-bottom: 29px;
+}
+
+.contact-by-phon a:first-child {
+    text-decoration: none;
+    padding: 13px 30px;
+    color: #ffffff;
+    background-color: #009dea;
+    display: inline-block;
+}
+
+.contact-by-phon a:last-child i {
+    background-color: #efefee;
+    text-decoration: none;
+    color: #009dea;
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 44px;
+    margin-right: 20px;
+}
+
+.contact-by-phon {
+    width: 100%;
+    height: 200px;
+}
+
+.contact-by-phon a:last-child {
+	float: right;
+    overflow: hidden;
+    text-decoration: none;
+    color: #009dea;
+    font-size: 18px;
+}
+
+.video-thumbnail{
+	background-image: url("../images/unsplash.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 80%;
+    float: right;
+    overflow: hidden;
+    box-shadow: 4px 4px 14px 1px #000000;
+
+}
+
+.video-play-icon{
+	position: relative;
+}
+.video-thumbnail a{
+	position: absolute;
+	color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #009dea;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 25px;
+	top: 60px;
+    left: 15%;
+}
